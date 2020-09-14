@@ -1,2 +1,3 @@
-# unity-game-hexabike
-Unity Android Game
+# HEXABIKE
+
+Hexabike is a fast paced infinite runner where you drive a bike through a cylindrical road collecting coins and avoiding to fall.
