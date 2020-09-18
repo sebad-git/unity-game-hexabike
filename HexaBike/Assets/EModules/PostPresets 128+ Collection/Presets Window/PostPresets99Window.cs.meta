@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a3afa42dfa93b7042b33b920c975950b
+timeCreated: 1522779407
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - favicon_enable: {fileID: 2800000, guid: 0056eaf38e196e64297d2599194504a3, type: 3}
+  - favicon_disable: {fileID: 2800000, guid: 837bf52995f46be4391b9f16c385674f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

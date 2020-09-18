@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: ad1adade371c6f04590f2ed84866a608
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bike
+    100002: bikeBone
+    100004: Bone
+    100006: //RootNode
+    100008: chest
+    100010: foot.L
+    100012: foot.R
+    100014: forearm.L
+    100016: forearm.R
+    100018: hand.L
+    100020: hand.R
+    100022: head
+    100024: hips
+    100026: neck
+    100028: robot
+    100030: shin.L
+    100032: shin.R
+    100034: shoulder.L
+    100036: shoulder.R
+    100038: skeleton
+    100040: spine
+    100042: thigh.L
+    100044: thigh.R
+    100046: toe.L
+    100048: toe.R
+    100050: upper_arm.L
+    100052: upper_arm.R
+    400000: bike
+    400002: bikeBone
+    400004: Bone
+    400006: //RootNode
+    400008: chest
+    400010: foot.L
+    400012: foot.R
+    400014: forearm.L
+    400016: forearm.R
+    400018: hand.L
+    400020: hand.R
+    400022: head
+    400024: hips
+    400026: neck
+    400028: robot
+    400030: shin.L
+    400032: shin.R
+    400034: shoulder.L
+    400036: shoulder.R
+    400038: skeleton
+    400040: spine
+    400042: thigh.L
+    400044: thigh.R
+    400046: toe.L
+    400048: toe.R
+    400050: upper_arm.L
+    400052: upper_arm.R
+    2300000: bike
+    3300000: bike
+    4300000: bike
+    4300002: robot
+    7400000: bikeBone|bikeBoneAction
+    7400002: BIKE_IDLE
+    7400004: skeleton|bikeAction
+    7400006: bike|bikeAction
+    7400008: BIKE_RIGHT
+    7400010: BIKE_LEFT
+    9500000: //RootNode
+    13700000: robot
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BIKE_IDLE
+      takeName: skeleton|skeletonAction
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot
+        weight: 1
+      - path: skeleton
+        weight: 1
+      - path: skeleton/hips
+        weight: 1
+      - path: skeleton/hips/bike
+        weight: 1
+      - path: skeleton/hips/spine
+        weight: 1
+      - path: skeleton/hips/spine/chest
+        weight: 1
+      - path: skeleton/hips/spine/chest/neck
+        weight: 1
+      - path: skeleton/hips/spine/chest/neck/head
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: skeleton/hips/thigh.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: skeleton/hips/thigh.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BIKE_RIGHT
+      takeName: skeleton|skeletonAction
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot
+        weight: 1
+      - path: skeleton
+        weight: 1
+      - path: skeleton/hips
+        weight: 1
+      - path: skeleton/hips/bike
+        weight: 1
+      - path: skeleton/hips/spine
+        weight: 1
+      - path: skeleton/hips/spine/chest
+        weight: 1
+      - path: skeleton/hips/spine/chest/neck
+        weight: 1
+      - path: skeleton/hips/spine/chest/neck/head
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: skeleton/hips/thigh.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: skeleton/hips/thigh.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BIKE_LEFT
+      takeName: skeleton|skeletonAction
+      firstFrame: 60
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robot
+        weight: 1
+      - path: skeleton
+        weight: 1
+      - path: skeleton/hips
+        weight: 1
+      - path: skeleton/hips/bike
+        weight: 1
+      - path: skeleton/hips/spine
+        weight: 1
+      - path: skeleton/hips/spine/chest
+        weight: 1
+      - path: skeleton/hips/spine/chest/neck
+        weight: 1
+      - path: skeleton/hips/spine/chest/neck/head
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: skeleton/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: skeleton/hips/thigh.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: skeleton/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: skeleton/hips/thigh.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: skeleton/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

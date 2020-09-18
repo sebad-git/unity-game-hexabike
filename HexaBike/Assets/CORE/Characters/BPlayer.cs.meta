@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: bc002f8cedb1c914182da5db66bbb13b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bike: {fileID: 11400000, guid: b41eae605f7b6f1478b27e99b2309d70, type: 2}
+  - world: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
